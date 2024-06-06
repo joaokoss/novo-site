@@ -19,55 +19,54 @@ body {
             }
             .principal {
                 background-image: url(“img/Background.png”);
-                }
-                .container {
-                    height: 100vh;
-                    background-image: url(“img/Background.png”);
-                    background-repeat: no-repeat;
-                    }
-            .principal {
-                background-repeat: no-repeat;
+                }
+                .container {
+                    height: 100vh;
+                    background-image: url(“img/Background.png”);
+                    background-repeat: no-repeat;
+                    }
+             .principal {
+                background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
     text-align: center;
-            }
-            .container__botao {
-                background-color: var(--botao-azul);
-                border-radius: 5px;
-                padding: 1em;
-                color: var(--branco-principal);
-                .container {
-                    height: 100vh;
-                    display:grid;
-                    display:grid;
+            .container__botao {
+                background-color: var(--botao-azul);
+                border-radius: 5px;
+                padding: 1em;
+                color: var(--branco-principal);
+                .container {
+                    height: 100vh;
+                  display:grid;
+                 display:grid;
     grid-template-columns: 50% 50%;
     display: block;
     text-decoration: none;
     margin-bottom: 1em;
     }
     .container__aviso {
-        font-size:12px;
-        color: var(--cinza-secundario);
-        }
-        .container__titulo {
-            font-size:28px;
-            font-weight: 700;
-            }
-            .container__imagem {
-                margin: 1em 0 2em 0;
-                }
-                .container__caixa{
-                    margin: 0 6em;
-                    }
-                    .secundario__imagem {
-                        width: 80%;
+        font-size:12px;
+        color: var(--cinza-secundario);
+        }
+        .container__titulo {
+            font-size:28px;
+            font-weight: 700;
+            }
+            .container__imagem {
+                margin: 1em 0 2em 0;
+                }
+                .container__caixa{
+                    margin: 0 6em;
+                    }
+                    .secundario__imagem {
+                        width: 80%;
     
-                        }
-                        .secundario {
-                            align-items: center;
-                            margin:0 10em;
-                            }
-                            .descricao__titulo {
+                        }
+                        .secundario {
+                            align-items: center;
+                            margin:0 10em;
+                            }
+                            .descricao__titulo {
                                 font-weight: 700;
                                 font-size:48px;
                                 color:var(--branco-principal);
